@@ -8,13 +8,13 @@ class Config(object):
 
     BOT_TOKEN = str(os.environ.get("BOT_TOKEN", ""))
     
-    OWNER_ID = int(os.environ.get("OWNER_ID", 1428968542))
+    OWNER_ID = int(os.environ.get("OWNER_ID", 1117429940 ))
 
-    START = str(os.environ.get("START_TEXT", ""))
+    START = str(os.environ.get("START_TEXT", "Hi Iam A FeedBack Bot [Made By](https://t.me/LEGEND_OF_TG)"))
 
     HELP = str(os.environ.get("HELP_TEXT", ""))
 
-    DONATE = str(os.environ.get("DONATE_TEXT", ""))
+    DONATE = str(os.environ.get("DONATE_TEXT", "Send Your Feedbacks Here About Our L.M Channels"))
 
     DONATE_LINK = str(os.environ.get("DONATE_LINK", ""))
 
